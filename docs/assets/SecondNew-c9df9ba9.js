@@ -1,0 +1,1 @@
+import{d as t,r as a,h as o,P as n,o as r}from"./index-30bb2794.js";const p=t({__name:"SecondNew",setup(s){const e=a("次新股池列表");return(c,l)=>(r(),o(n,{title:e.value},null,8,["title"]))}});export{p as default};

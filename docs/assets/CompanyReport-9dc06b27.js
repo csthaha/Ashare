@@ -1,0 +1,1 @@
+import{d as t,r as a,h as o,P as n,o as r}from"./index-30bb2794.js";const _=t({__name:"CompanyReport",setup(s){const e=a("公司个股研报");return(c,l)=>(r(),o(n,{title:e.value},null,8,["title"]))}});export{_ as default};
