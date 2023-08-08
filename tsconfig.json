@@ -1,0 +1,58 @@
+//  创建项目默认配置文件
+// {
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./tsconfig.node.json"
+//     },
+//     {
+//       "path": "./tsconfig.app.json"
+//     }
+//   ],
+// }
+
+
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "target": "esnext",
+    "module": "esnext",
+    "useDefineForClassFields": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+
+    // 在 TypeScript 中正常导入 Moment 库了。
+    "allowSyntheticDefaultImports": true,
+
+    "lib": ["esnext", "dom"],
+    "baseUrl": "./",
+    "paths": {
+      "@": ["src"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "references": [
+    // { 
+    //   "path": "./tsconfig.node.json" 
+    // }, 
+    // {
+    //   "path": "./tsconfig.app.json"
+    // }
+  ]
+}
